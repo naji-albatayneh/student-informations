@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students list</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ASAC</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="column" id="div1">
+            <form action="">
+                <label for="email">Student Email: <input type="email" id="email" name="email"></label>
+                <br>
+                <label for="tel">Student Mobile Number: <input type="tel" id="tel" name="tel"></label>
+                <br>
+                <label for="tuition">Tuition: <select name="" id="tuition" name="tuition">
+                    <option value="100">100 JD</option>
+                    <option value="500">500 JD</option>
+                    <option value="1000">1000 JD</option>
+                </select></label>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="column" id="div2">
+            <table id="table">
+            </table>
+            <p id="total">Total: 0</p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
